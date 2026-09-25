@@ -1,0 +1,17 @@
+# DSCI 552 - Homework 2 (Combined Cycle Power Plant)
+# Install with:  pip install -r requirements.txt
+#
+# Minimum versions are listed so the notebook runs on a range of setups.
+# Versions this submission was executed and verified with are noted alongside.
+
+numpy>=1.23            # verified with 2.4.4
+pandas>=1.5            # verified with 3.0.2
+matplotlib>=3.6        # verified with 3.10.8
+seaborn>=0.13          # verified with 0.13.2  (>=0.13 required: FacetGrid.figure)
+scikit-learn>=1.1      # verified with 1.8.0
+statsmodels>=0.13      # verified with 0.15.0  (OLS, anova_lm, influence measures)
+openpyxl>=3.1.0        # verified with 3.1.5   (required by pandas to read .xlsx; recent pandas needs >=3.1)
+
+# Needed only to open and run the notebook itself
+notebook>=6.4
+ipykernel>=6.0
