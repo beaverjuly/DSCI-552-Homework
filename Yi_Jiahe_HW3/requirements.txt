@@ -1,0 +1,16 @@
+# DSCI 552 - Homework 3 (AReM time-series feature extraction)
+# Install with:  pip install -r requirements.txt
+#
+# Minimum versions are listed so the notebook runs on a range of setups.
+# Versions this submission was executed and verified with are noted alongside.
+
+numpy>=1.23            # verified with 2.4.4
+pandas>=1.5            # verified with 3.0.2
+matplotlib>=3.6        # verified with 3.10.8
+seaborn>=0.13          # verified with 0.13.2
+scipy>=1.9             # verified with 1.17.1  (stats.bootstrap, stats.f_oneway)
+scikit-learn>=1.1      # verified with 1.8.0   (cross-validation check in 1(c)iv)
+
+# Needed only to open and run the notebook itself
+notebook>=6.4
+ipykernel>=6.0
